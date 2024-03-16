@@ -162,14 +162,12 @@ section{
 .images{
   display: flex;
   justify-content:left;
-  height:650px;
-  width: 500px;
-  
- margin-left: 5%;
+  height:450px;
+  width: 450px;
+  margin-left: 5%;
    
 }
 .images img{
-     
   border-radius:30px;
   height:100%;
   width: 100%;
@@ -178,8 +176,8 @@ section{
     display:flex;
     justify-content:left; 
     position: absolute;
-    margin-top: 38%;
-    margin-left: 14%; 
+    margin-top:26%;
+    margin-left: 12%; 
     gap:1rem; 
 }
 .btn1:hover{
