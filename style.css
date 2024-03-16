@@ -85,7 +85,7 @@ section{
   display: flex;
   padding-top: 140px;
   margin-left: 20%;
-  box-sizing: border-box;
+ 
 }
 .introduce {
   margin-left: 12%;
@@ -133,43 +133,106 @@ section{
 .icon-contact:hover {
   cursor: pointer;
 }
-.About {
-  width: 1000px;
-  height: 80px;
-}
-.content-video {
-  width: 1000px;
-  height: 80vh;
-}
+ 
+ 
 .horizontal-line {
-  width: 1000px;
+  width: 1250px;
   height: 0.5x;
   background-color: black;
   padding: 2px;
   margin-left: 12%;
   margin-top: 5%;
 }
+.horizontal-line2 {
+  width: 1250px;
+  height: 0.5x;
+  background-color: black;
+  padding: 2px;
+  margin-left: 12%;
+
+   
+}
 .About{
   height: 100vh;
   margin-top: 8%;
-  margin-left: 12%;
+  margin-left: 5%;
+  display: flex;
  /* overflow: hidden;*/
 }
 .images{
   display: flex;
   justify-content:left;
-  height:450px;
-  width: 450px;
-  box-shadow: 3px 3px 16px rgba(0,0,0.7);
-  border-radius:30px;
+  height:650px;
+  width: 500px;
+  
+ margin-left: 5%;
    
 }
 .images img{
+    border: 5px solid black;
+  border-radius:30px;
   height:100%;
   width: 100%;
 }
- 
+.btnimg{
+    display:flex;
+    justify-content:left; 
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 14%; 
+    gap:1rem; 
+}
+.btn1:hover{
+  cursor: pointer;
+  opacity:2;
+  background-color: rgba(187, 190, 192, 0.53);
+}
+.btn2:hover{
+  cursor: pointer;
+  opacity:2;
+  background-color: rgba(187, 190, 192, 0.53);
+}
+.btn3:hover{
+  cursor: pointer;
+  opacity:2;
+  background-color: rgba(187, 190, 192, 0.53);
+}
+.btn1{
+  width: 15px;
+  height:15px;
+  display: inline-block;
+  border-radius: 30px;
+  background-color: rgba(107, 105, 103, 0.788);
+  box-shadow: 3px 3px 16px rgba(0,0,0.7);
+}
+.btn2{
+  width: 15px;
+  height:15px;
+  display: inline-block;
+  border-radius: 30px;
+  background-color: rgba(107, 105, 103, 0.788);
+  box-shadow: 3px 3px 16px rgba(0,0,0.7);
+}
+.btn3{
+  width: 15px;
+  height:15px;
+  display: inline-block;
+  border-radius: 30px;
+  background-color: rgba(107, 105, 103, 0.788);
+  box-shadow: 3px 3px 16px rgba(0,0,0.7);
+}
+.content-nhatminh{
+  width: 450px;
+  height: 450px;
+  margin-left: 15%;
+  
+   
+}
+.content-nhatminh p{
+  font-size: 18px;
+  margin-top: 8%;
 
+}
 
  
  
