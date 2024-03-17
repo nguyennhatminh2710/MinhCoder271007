@@ -140,7 +140,7 @@ section {
   background-color: black;
   padding: 2px;
   margin-left: 12%;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 .horizontal-line2 {
   width: 1250px;
@@ -248,7 +248,7 @@ h3{
   transform: translate(50%);
 }
 .My_Project{
-  height: 200vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   margin-top: 10%;
@@ -256,33 +256,60 @@ h3{
 .box{
   width: 311px;
   height: 461px;
-  background-color:rgba(170, 166, 161, 0.927);
+  background-color:rgba(255, 255, 255, 0.927);
   margin: 30px;
   margin-bottom: 15px;
-  box-shadow: 3px 3px 16px rgba(0, 0, 0.7);
+  box-shadow: 3px 3px 16px rgb(144, 144, 237);
 }
 .box-image{
     
-  height: 200px;
+  height: 250px;
   background-size: cover;
 }
 .image_1{
   background-image: url(./background1.jpg);
 }
+.image_2{
+  background-image:url(./background2.jpg);
+}
+.image_3{
+  background-image: url(./background3.jpg);
+}
 .box-image,.title{
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
-  color:black;
+  color:rgb(234, 134, 52);
   font-family:sans-serif;
   padding: 10px;
  text-decoration: underline;
+ text-align: center;
 }
 .box-image,a{
-  padding: 10px;
+  padding: 5px;
   font-size: 16px;
   font-weight: 600;
   color: black;
 }
 .instruction{
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
   margin-top: 3%;
+}
+.btn-img1{
+  width: 161px;
+  height: 46px;
+  border-radius: 30px;
+  margin-left:22%;
+  margin-top: 3%;
+  color:white;
+  border: none;
+  font-size: 18px;
+  background-color:black;
+  box-shadow: 3px 3px 16px rgba(165, 200, 243, 0.84);
+
+}
+.btn-img1:hover{
+  cursor: pointer;
+  background-color: rgba(196, 194, 194, 0.906);
 }
