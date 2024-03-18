@@ -67,8 +67,8 @@ nav {
   text-underline-position: rgb(121, 120, 118);
 }
 .Logo {
-  font-size: 30px;
-  color: white;
+  font-size: 35px;
+  color: White;
 }
 .Logo:hover {
   cursor: default;
@@ -220,18 +220,16 @@ section {
   height: 450px;
   margin-left: 15%;
 }
-h3{
+h3 {
   text-decoration: underline;
 }
 .content-nhatminh ul {
   font-size: 23px;
- 
 }
 .Block-About {
   width: 246px;
   height: 93px;
   background-color: black;
-
   margin-left: 12%;
 }
 .Block-About p {
@@ -247,69 +245,158 @@ h3{
   bottom: 50%;
   transform: translate(50%);
 }
-.My_Project{
+.My_Project {
   height: 80vh;
   display: flex;
   justify-content: center;
   margin-top: 10%;
 }
-.box{
+.box {
   width: 311px;
   height: 461px;
-  background-color:rgba(255, 255, 255, 0.927);
+  background-color: rgba(255, 255, 255, 0.927);
   margin: 30px;
   margin-bottom: 15px;
   box-shadow: 3px 3px 16px rgb(144, 144, 237);
 }
-.box-image{
-    
+.box-image {
   height: 250px;
   background-size: cover;
 }
-.image_1{
+.image_1 {
   background-image: url(./background1.jpg);
 }
-.image_2{
-  background-image:url(./background2.jpg);
+.image_2 {
+  background-image: url(./background2.jpg);
 }
-.image_3{
+.image_3 {
   background-image: url(./background3.jpg);
 }
-.box-image,.title{
+.box-image,
+.title {
   font-size: 24px;
   font-weight: 700;
-  color:rgb(234, 134, 52);
-  font-family:sans-serif;
+  color: rgb(234, 134, 52);
+  font-family: sans-serif;
   padding: 10px;
- text-decoration: underline;
- text-align: center;
+  text-decoration: underline;
+  text-align: center;
 }
-.box-image,a{
+.box-image,
+a {
   padding: 5px;
   font-size: 16px;
   font-weight: 600;
   color: black;
 }
-.instruction{
+.instruction {
   font-size: 16px;
   font-weight: 300;
   color: black;
   margin-top: 3%;
 }
-.btn-img1{
+.btn-img1 {
   width: 161px;
   height: 46px;
   border-radius: 30px;
-  margin-left:22%;
+  margin-left: 22%;
   margin-top: 3%;
-  color:white;
+  color: white;
   border: none;
   font-size: 18px;
-  background-color:black;
+  background-color: black;
   box-shadow: 3px 3px 16px rgba(165, 200, 243, 0.84);
-
 }
-.btn-img1:hover{
+.btn-img1:hover {
   cursor: pointer;
   background-color: rgba(196, 194, 194, 0.906);
+}
+.Contact-nav {
+  display:flex;
+  justify-content: center;
+  background-color:antiquewhite;
+  height: 90vh;
+ 
+ 
+  
+}
+.contact-box{
+  width: 1300px;
+  height: 580px;
+  background-color: rgb(255, 255, 255);
+  margin-top:5%;
+  border-radius: 30px;
+  display: flex;
+}
+.lets-talk{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.lets-talk li{
+  margin-top:10%;
+  list-style-type: none;
+}
+.lets-talk h2{
+  font-size: 50px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lets-talk h3{
+  font-size: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.participate{
+  font-size: 20px;
+  font-weight: 500;
+}
+ .message{
+  margin-top:5%;
+  margin-left: 12%;
+ }
+ .message h2{
+  font-size: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+  
+ .message li{
+  list-style-type: none;
+ }
+.message .input1{
+  margin-top: 10%;
+  width: 400px;
+  height: 40px;
+  gap:10px;
+  border:2px solid rgba(236, 221, 191, 0.865);
+  background-color:bisque;
+  border-radius: 10px;
+  font-size: 13px;
+  color: rgb(138, 138, 135);
+}
+.message .input2{
+  width: 400px;
+  height: 100px;
+  margin-top: 3%;
+  border:2px solid rgba(236, 221, 191, 0.865);
+  background-color:bisque;
+  border-radius: 10px;
+  font-size: 13px;
+  color: rgb(138, 138, 135);
+}
+.message h4{
+  margin-top: 2%;
+}
+.btn-send{
+  width: 150px;
+  height: 45px;
+  border: none;
+  background-color:bisque;
+  border-radius: 10px;
+  margin-top: 2%;
+  font-size: 18px;
+  font-weight: 600;
+  color:black;
+  box-shadow: 3px 3px 16px rgba(232, 187, 136, 0.84);
+}
+.btn-send:hover{
+  cursor: pointer;
+  background-color: rgb(239, 188, 120);
 }
