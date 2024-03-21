@@ -36,11 +36,7 @@ nav {
   list-style: none;
   font-size: 25px;
 }
-.icon1 {
-  color: white;
-  margin-left: 18%;
-  font-size: 30px;
-}
+ 
 .icon2 {
   color: white;
   margin-left: 8%;
@@ -50,10 +46,38 @@ nav {
   color: rgb(121, 120, 118);
   cursor: pointer;
 }
-.icon1:hover {
-  color: rgb(121, 120, 118);
+ 
+ ul li ul.dropdown li{
+  display: block;
+  padding: 20px 25px;   
+  text-align: center;
+  
+ }
+ ul li ul.dropdown{
+  width: auto;
+  background-color:rgb(0, 0, 0);
+  position: absolute;
+  z-index: 999;
+  display: none;
+ 
+ }
+ ul li:hover ul.dropdown{
+  display: block; 
+  border-radius: 30px;
+  margin: 2px 0px;
+  
+   
+ }
+ .a-nav1{
+  font-size: 16px;
+  color:white;
+  text-decoration: none;
+ }
+ .a-nav1:hover{
   cursor: pointer;
-}
+  color: rgb(121, 120, 118);
+ }
+ 
 .a-nav {
   color: white;
   text-decoration: none;
@@ -66,6 +90,14 @@ nav {
   text-underline-offset: 1rem;
   text-underline-position: rgb(121, 120, 118);
 }
+.icon3{
+  margin-left: 8%;
+  width: 60px; 
+}
+.icon3:hover{
+  cursor: pointer;
+  
+}
 .Logo {
   font-size: 35px;
   color: White;
@@ -73,8 +105,9 @@ nav {
 .Logo:hover {
   cursor: default;
 }
+/**/
 .Desktop {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 
 .Pic_1 {
@@ -400,3 +433,21 @@ a {
   cursor: pointer;
   background-color: rgb(239, 188, 120);
 }
+.icon-contact .top-btn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(234, 221, 185);
+  border-radius: 30px;
+  text-align: center;
+   bottom: 40px;
+   right: 50px;
+   line-height: 50px;
+   font-size: 30px;
+}
+.top-btn:hover{
+  cursor: pointer;
+  background-color: bisque;
+}
+/*Menu*/
+  
